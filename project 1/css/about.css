@@ -1,0 +1,16 @@
+.main_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main_info .description {
+    margin: 5%;
+    padding: 5%;
+}

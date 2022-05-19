@@ -1,0 +1,94 @@
+/* header */
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #50a6a1;
+    height: 60px;
+    border-radius: 8px;
+    box-shadow: 2px 2px #e1faf1;
+    margin-bottom: 10px;
+}
+
+.head .name h2{
+    margin-left: 15px;
+    font-size: 22px;
+    line-height: 60px;
+    color: #fff;
+}
+
+.head .nav ul{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+.head .nav ul li {
+    margin-right: 10px;
+    line-height: 60px;
+}
+
+.head .nav ul li a {
+    width: 100%;
+    padding: 10px;
+    border-right: 1px solid #fff;
+    text-align: center;
+    color: #fff;
+}
+
+.head .nav ul li:last-child a{
+    border-right: none;
+}
+
+.head .nav ul li:hover {
+    text-decoration: underline;
+}
+
+/* personal info on the side */
+.personal_details {
+    display: flex;
+    flex-direction: column;
+    background-color: #edfaf5;
+    justify-content: center;
+    border-radius: 8px;
+    box-shadow: 1px 1px #fff;
+    color: #033233;
+}
+.personal_details .selfintro {
+    border-bottom: 1px dotted #fff;
+    margin-bottom: 10px;
+}
+
+.personal_details .selfintro h2{
+    margin-left: 30px;
+    padding: 20px 0;
+}
+
+.personal_details .personal_img {
+    width: 250px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.personal_details .personal_img img {
+    width: 100%;
+}
+
+.personal_details .detail_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.personal_details .detail_info .details_info_container {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.personal_details .detail_info .details_info_container h3 {
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+/* footer */

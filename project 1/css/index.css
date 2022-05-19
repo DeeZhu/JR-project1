@@ -1,0 +1,26 @@
+
+.brief_intro {
+    display: flex;
+    justify-content: space-between;
+}
+
+.brief_intro .homepage_present {
+   margin: 50px;
+    width: 600px;
+}
+
+.brief_intro .text {
+    margin: 200px auto;
+}
+
+.brief_intro .text p {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #096141;
+}
+
+.brief_intro .text h1 {
+    font-size: 56px;
+    margin-bottom: 10px;
+    color: #033233;
+}
